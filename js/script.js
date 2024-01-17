@@ -101,8 +101,8 @@ void main() {
     var loader = new THREE.TextureLoader();
     loader.setCrossOrigin(''); // Handling CORS
 
-    var texture1 = loader.load('../img/banner/myphoto.jpg');
-    var texture2 = loader.load('../img/banner/IMG_1436.HEIC');
+    var texture1 = loader.load('myphoto.jpg');
+    var texture2 = loader.load('IMG_1436.HEIC');
     var dispTexture = loader.load('https://images.pexels.com/photos/4252667/pexels-photo-4252667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
 
     var uniforms = {
