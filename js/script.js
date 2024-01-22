@@ -35,7 +35,7 @@ $(document).ready(function () {
         responsiveClass: true,
         responsive: {
             0: {
-                items: 1,
+                items: 2,
                 nav: true,
                 dots: true,
             },
@@ -164,7 +164,17 @@ let setval = document.querySelectorAll(".set-value");
 getval.forEach((data, ind) => {
     let persentage = data.innerHTML;
     setval[ind].style.width = persentage;
+
 });
+
+// (function(){
+//     let setval = document.querySelectorAll(".set-value")[0];
+//     function addAnim(){
+//         setval.classList.add("animate");
+//         setval.addEventListener('mousehover',addAnim);
+//     };
+//     setval.addEventListener('mousehover',addAnim);
+// })();
 
 // popup tooggle button
 
