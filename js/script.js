@@ -13,54 +13,29 @@ $(document).ready(function () {
         } else {
             $('.scroll-up-btn').removeClass("show");
         }
-
-        // if (this.scrollY > 100) {
-        //     document.querySelector('nav#nav-link ul li a.active').classList.remove('active'),
-        //     document.querySelectorAll('#nav-link ul li a')[0].classList.add('active');
-        // }
-        // if(this.scrollY > 200){
-        //     document.querySelector('nav#nav-link ul li a.active').classList.remove('active'),
-        //     document.querySelectorAll('#nav-link ul li a')[1].classList.add('active');
-        // }
-        // if(this.scrollY > 800){
-        //     document.querySelector('nav#nav-link ul li a.active').classList.remove('active'),
-        //     document.querySelectorAll('#nav-link ul li a')[2].classList.add('active');
-        // }
-        // if(this.scrollY > 1100){
-        //     document.querySelector('nav#nav-link ul li a.active').classList.remove('active'),
-        //     document.querySelectorAll('#nav-link ul li a')[3].classList.add('active');
-        // }
-        // if(this.scrollY > 1900){
-        //     document.querySelector('nav#nav-link ul li a.active').classList.remove('active'),
-        //     document.querySelectorAll('#nav-link ul li a')[4].classList.add('active');
-        // }
-        // if(this.scrollY > 2100){
-        //     document.querySelector('nav#nav-link ul li a.active').classList.remove('active'),
-        //     document.querySelectorAll('#nav-link ul li a')[5].classList.add('active');
-        // }
         if (this.scrollY < 600) {
             document.querySelector('nav#nav-link ul li a.active').classList.remove('active'),
-            document.querySelectorAll('#nav-link ul li a')[0].classList.add('active');
+                document.querySelectorAll('#nav-link ul li a')[0].classList.add('active');
         }
-        else if(this.scrollY < 630+430){
+        else if (this.scrollY < 630 + 430) {
             document.querySelector('nav#nav-link ul li a.active').classList.remove('active'),
-            document.querySelectorAll('#nav-link ul li a')[1].classList.add('active');
+                document.querySelectorAll('#nav-link ul li a')[1].classList.add('active');
         }
-        else if(this.scrollY < 630+430+500){
+        else if (this.scrollY < 630 + 430 + 500) {
             document.querySelector('nav#nav-link ul li a.active').classList.remove('active'),
-            document.querySelectorAll('#nav-link ul li a')[2].classList.add('active');
+                document.querySelectorAll('#nav-link ul li a')[2].classList.add('active');
         }
-        else if(this.scrollY < 630+430+500+480){
+        else if (this.scrollY < 630 + 430 + 500 + 480) {
             document.querySelector('nav#nav-link ul li a.active').classList.remove('active'),
-            document.querySelectorAll('#nav-link ul li a')[3].classList.add('active');
+                document.querySelectorAll('#nav-link ul li a')[3].classList.add('active');
         }
-        else if(this.scrollY < 630+430+500+480+520){
+        else if (this.scrollY < 630 + 430 + 500 + 480 + 520) {
             document.querySelector('nav#nav-link ul li a.active').classList.remove('active'),
-            document.querySelectorAll('#nav-link ul li a')[4].classList.add('active');
+                document.querySelectorAll('#nav-link ul li a')[4].classList.add('active');
         }
-        else if(this.scrollY < 630+430+500+480+520+570){
+        else if (this.scrollY < 630 + 430 + 500 + 480 + 520 + 570) {
             document.querySelector('nav#nav-link ul li a.active').classList.remove('active'),
-            document.querySelectorAll('#nav-link ul li a')[5].classList.add('active');
+                document.querySelectorAll('#nav-link ul li a')[5].classList.add('active');
         }
     });
     // typing animation
@@ -85,7 +60,7 @@ $(document).ready(function () {
         responsive: {
             0: {
                 items: 1,
-                nav: true,
+                nav: false ,
                 dots: true,
             },
             700: {
@@ -205,7 +180,7 @@ void main() {
 
 
 
-// java-script---------
+//costum java-script---------
 
 
 // popup tooggle button
